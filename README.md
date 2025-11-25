@@ -23,7 +23,7 @@ This project implements Track A of the Prox Software Engineering Intern technica
 ### 1. Clone and Install Dependencies
 
 ```bash
-git clone <url of the repo>
+git clone https://github.com/khangpt2k6/Prox
 npm install
 ```
 
