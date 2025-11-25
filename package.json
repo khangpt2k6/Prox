@@ -1,0 +1,38 @@
+{
+  "name": "prox-deals-email-automation",
+  "version": "1.0.0",
+  "description": "Automated system for ingesting deal data and sending branded weekly deals emails",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "send:weekly": "ts-node src/cli.ts",
+    "dev": "ts-node src/cli.ts",
+    "ingest": "ts-node src/scripts/ingest.ts",
+    "update:emails": "ts-node src/scripts/update-user-emails.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "deals",
+    "email",
+    "automation",
+    "supabase"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1",
+    "resend": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.10.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
