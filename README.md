@@ -11,6 +11,9 @@ This project implements Track A of the Prox Software Engineering Intern technica
 - **Preference Filtering**: Sends personalized deals based on user's preferred retailers
 - **CLI Automation**: Single command to run the entire pipeline
 
+## Demo testing
+<img width="960" height="545" alt="image" src="https://github.com/user-attachments/assets/e505b412-cbb0-4697-9043-0fc596e1d533" />
+
 ### Key Features
 
 - **Deduplication**: Prevents duplicate deals based on `retailer_id + product_id + start_date`
